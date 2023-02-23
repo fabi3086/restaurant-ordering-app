@@ -1,0 +1,51 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Smythe&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header id="header-section" class="header-section">
+            
+            <div class="header-image">
+                <h1 class="header-title">Jimmy’s Diner</h1>
+                <h3 class="header-subtitle">The best burgers and pizzas in town.</h3>
+            </div>
+        </header>
+        
+        <section id="menu-iterate">
+        </section>
+        
+        <section id="checkout" class="checkout">
+            <h1 class="title">Your order</h1>
+            <div id="checkout-items"></div>
+            <div>
+                <p class="total-price">Total price</p>
+                <p id="checkout-item-price" class="item-price"></p>   
+                <button id="purchase-btn">Complete order</button>
+            </div>
+        </section>
+        
+        <section id="payment" class="payment">
+            <div id="payment-items"></div>
+                <form id="payment-form" class="input-text">
+                    <h1 class="payment-title">Enter card details</h1>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    <input type="text" id="card-number" name="card-number" 
+                    placeholder="Enter card number" required>
+                    <input type="text" id="cvv-number" name="cvv" placeholder="Enter cvv" required>
+                    <div>
+                        <button type="submit" id="pay-btn" class="pay-title">Pay</button>
+                    </div>
+                </form>
+        </section>
+        
+        <section id="order-complete-state" class="order-complete-state">
+            <div>
+                <h1 id="order-complete-state-h1" class="order-complete-text"></h1>
+            </div>
+        </section>
+	
+    <script src="index.js" type="module"></script>
+    </body>
+</html>
+

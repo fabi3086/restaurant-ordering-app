@@ -1,0 +1,290 @@
+/* Body */
+
+body {
+    height: 1070px;
+    margin: 0;
+    font-family: 'Smythe';
+} 
+
+.header-section {
+    width: 600px;
+    height: 400px;
+    margin-bottom: -200px;
+    background-image: url("./images/hamburger.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header-title {
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.header-subtitle {
+    position: absolute;
+    width: 275px;
+    height: 8px;
+    margin-left: 50px;
+    margin-top: 90px;
+    font-size: 22px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+/* Typography */
+
+h1{
+    font-size: 28px;
+    line-height: 17px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h2{
+    font-size: 20px;
+    line-height: 24px;  
+}
+
+.title{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -40px;  
+    width: 90px;
+    height: 17px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 17px;
+}
+
+.total-price{
+    /* position: absolute; */
+    width: 358px;
+    height: 24px;
+    left: 46px;
+    top: 971px;
+    font-size: 28px;
+    line-height: 24px;
+    color: #0E0E0E;        
+}
+
+/* Menu-section */
+
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 140px;
+    padding: 40px;
+    margin-left: 90px;
+}
+
+.menu-img {
+    position: absolute;
+    font-size: 50px;
+    margin-left: -90px;
+    margin-top: 30px;
+}
+
+/* Divider */
+
+#box-item{
+    width: 400px;
+    height: 0px;
+    left: 50px;
+    top: 557px;
+}
+
+#border-bottom{
+    border: 1px solid #D2D2D2;
+}
+
+.add-btn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px; 
+    margin-left: 350px;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 50%;
+    background: none;     
+}
+
+/* checkout */
+
+.checkout {
+    position: absolute;
+    visibility: hidden;
+    width: 500px;
+    height: 330px;
+    margin-left: 47px;
+    margin-top: 90px;
+    align-content: center;
+}
+
+.item1, .item2, .item3{
+    display: flex;
+    direction: column; 
+    width: 43px;
+    height: 17px;
+    left: 46px;
+    top: 870px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 17px;
+}
+
+.remove-item-btn {
+    position: absolute;
+    width: 70px;
+    height: 25px;
+    margin-left: 105px;
+    margin-top: -50px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    border: none;
+    background-color: white;
+    color: #BBBBBB;
+      
+}
+
+.item-price{
+    width: 20px;
+    height: 0px;
+    margin-left: 430px;
+    margin-top: -35px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #000000;
+    
+}
+
+#border-bottom-checkout{
+    width: 500px;
+    border: 1px solid #393333;
+}
+
+/* Purchase */
+
+#purchase-btn{
+    width: 508px;
+    height: 60px;
+    margin-top: 60px;
+    background: #16DB99;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;    
+}
+
+/* Payment */
+
+.payment{
+    position: absolute;
+    visibility: hidden;
+    width: 520px;
+    height: 540px;
+    left: 38px;
+    top: 325px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    filter: drop-shadow(5px 5px 255px); 
+}
+
+.payment-title{
+    width: 300px;
+    height: 40px;
+    margin-top: 60px;
+    padding-left: 138px;
+    font-family: 'Verdana';
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+}
+
+#name, #card-number, #cvv-number{
+    width: 410px;
+    height: 60px;
+    margin: 23px 60px 0;
+}
+
+::placeholder{
+    width: 215px;
+    height: 40px;
+    left: 85px;
+    top: 440px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #757575;    
+}
+
+#pay-btn{   
+    width: 420px;
+    height: 70px;
+    margin: 30px 60px 0;
+    background: #16DB99;
+    border-radius: 3px;
+    border: none; 
+    
+}
+.pay-title{
+    width: 53px;
+    height: 40px;
+    left: 270px;
+    top: 750px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+/* Order Complete */
+
+.order-complete-state{   
+    position: absolute;
+    visibility: hidden;
+    width: 505px;
+    height: 120px;
+    margin-left: 50px;
+    margin-top: 45px;
+    background: #ECFDF5;
+    border-radius: 3px;  
+}
+
+.order-complete-text{
+    position: absolute;
+    width: 600px;
+    height: 17px;
+    margin-left: 65px;
+    margin-top: 50px;
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 17px;
+    color: #065F46;
+}
